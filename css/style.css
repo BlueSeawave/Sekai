@@ -1,0 +1,72 @@
+body{
+  padding: 32px;
+  margin:16px;
+}
+.dropdown_konflikter-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown_konflikter:hover .dropdown_konflikter-content {
+  display: block;
+}
+.dropdown_konflikter{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_gods-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown_gods:hover .dropdown_gods-content{
+  display: block;
+}
+.dropdown_gods{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_lore-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown_lore:hover .dropdown_lore-content{
+  display: block;
+}
+.dropdown_lore{
+  position: relative;
+  display: inline-block;
+}
+.entext{
+  display: inline;
+}
+.cursiv{
+  font-style: italic;
+  display: inline;
+}
+
+.fet{
+  font-style: oblique;
+  display: inline;
+}
