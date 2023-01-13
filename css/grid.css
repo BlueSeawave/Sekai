@@ -1,13 +1,15 @@
 .jacuni{
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 300px); 
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 250px); 
     grid-template-areas: 
-    "v v v m r r r"
-    "bl bl bl b br br br"
-    "bl bl bl b br br br"
-    "bl bl bl b br br br "
-    "bl bl bl b br br br "
+    "v v v m h h h h"
+    "bl bl bl b br br br br"
+    "bl bl bl b br br br br"
+    "bl bl bl b br br br br"
+    "bl bl bl b br br br br"
+    "bl bl bl b br br br br"
+
     ;
 }
