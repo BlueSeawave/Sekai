@@ -1,8 +1,8 @@
 .jacuni{
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(7, minmax(1fr,290px));
-    grid-template-rows: repeat(5, 300); 
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 300px); 
     grid-template-areas: 
     "tl tl tl t tr tr tr"
     "v v v m tr tr tr"
