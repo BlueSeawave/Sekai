@@ -2,12 +2,12 @@
     height: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 250px); 
+    grid-template-rows: repeat(5, 290px); 
     grid-template-areas: 
-    "tl tl tl tl t tr tr"
-    "v v v v m tr tr"
-    "bl bl bl bl b br br"
-    "bl bl bl bl b br br"
-    "bl bl bl bl b br br"
+    "tl tl tl t tr tr tr"
+    "v v v m tr tr tr"
+    "bl bl bl b br br br"
+    "bl bl bl b br br br"
+    "bl bl bl bl b br br br"
     ;
 }
