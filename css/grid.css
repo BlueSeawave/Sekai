@@ -1,5 +1,4 @@
 .jacuni{
-    height: 100%;
     display: grid;
     grid-template-columns: repeat(8, 256px);
     grid-template-rows: repeat(6, 250px); 
