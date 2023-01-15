@@ -2,11 +2,11 @@
     document.getElementById('test').style.visability='hidden';
     }*/
     function bytbild() {
-      var x = document.getElementById("jacuni");
-      if (x.style.display === "none") {
-        x.style.display = "grid";
-      } else {
+      var x = document.getElementById("karta");
+      if (x.style.display === "block") {
         x.style.display = "none";
+      } else {
+        x.style.display = "block";
       }
     }
     
