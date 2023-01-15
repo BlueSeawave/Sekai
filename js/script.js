@@ -4,7 +4,7 @@
     function bytbild() {
       var x = document.getElementById("jacuni");
       if (x.style.display === "none") {
-        x.style.display = "block";
+        x.style.display = "grid";
       } else {
         x.style.display = "none";
       }
