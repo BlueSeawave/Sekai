@@ -111,12 +111,12 @@ body{
    grid-area: br;
 }
 
-#karta{
+.karta{
    background-color: rgb(255, 255, 255);
    grid-area:m;
 }
 
-#karta2{
+.karta2{
   background-color: rgb(255, 255, 255);
   grid-area:mm;
 }

@@ -2,7 +2,7 @@
     document.getElementById('test').style.visability='hidden';
     }*/
     function bytbild() {
-      var x = document.getElementsByClassName("karta");
+      var x = document.getElementById("karta");
       if (x.style.display === "block") {
         x.style.display = "none";
       } else {
