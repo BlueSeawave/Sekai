@@ -4,7 +4,7 @@
     grid-template-columns: repeat(8, 256px);
     grid-template-rows: repeat(7, 210px); 
     grid-template-areas: 
-    "tl tl tl t tr tr tr tr"
+    "tl tl tl mm tr tr tr tr"
     "v v m m h h h h"
     "bl bl bl b br br br br"
     "bl bl bl b br br br br"
