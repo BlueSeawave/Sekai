@@ -117,14 +117,14 @@ body{
    grid-area: br;
 }
 
-.karta{
+.karta_rad1{
    background-color: rgb(255, 255, 255);
-   grid-area:m;
+   grid-area:se1;
 }
 
-.karta2{
+.karta_rad2{
   background-color: rgb(255, 255, 255);
-  grid-area:mm;
+  grid-area:se2;
 }
 
 .mas{

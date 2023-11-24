@@ -3,7 +3,7 @@
     }*/
     function bytbild() {
       var x = document.getElementById("karta");
-      if (x.style.display === "block") {
+      if (x.style.display == "block") {
         x.style.display = "none";
       } else {
         x.style.display = "block";
